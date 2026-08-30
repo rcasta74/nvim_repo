@@ -1,0 +1,8 @@
+[submodule "build/neovim"]
+	path = build/neovim
+	url = https://github.com/neovim/neovim
+	shallow = true
+[submodule "build/deps"]
+	path = build/deps
+	url = https://github.com/neovim/deps
+	shallow = true
