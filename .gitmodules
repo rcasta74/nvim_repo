@@ -6,3 +6,119 @@
 	path = build/deps
 	url = https://github.com/neovim/deps
 	shallow = true
+[submodule "plugins/gruvbox.nvim"]
+	path = plugins/gruvbox.nvim
+	url = https://github.com/ellisonleao/gruvbox.nvim
+	shallow = true
+[submodule "plugins/blink.cmp"]
+	path = plugins/blink.cmp
+	url = https://github.com/saghen/blink.cmp
+	shallow = true
+[submodule "plugins/lualine.nvim"]
+	path = plugins/lualine.nvim
+	url = https://github.com/nvim-lualine/lualine.nvim
+	shallow = true
+[submodule "plugins/conform.nvim"]
+	path = plugins/conform.nvim
+	url = https://github.com/stevearc/conform.nvim
+	shallow = true
+[submodule "plugins/friendly-snippets"]
+	path = plugins/friendly-snippets
+	url = https://github.com/rafamadriz/friendly-snippets
+	shallow = true
+[submodule "plugins/gitsigns.nvim"]
+	path = plugins/gitsigns.nvim
+	url = https://github.com/lewis6991/gitsigns.nvim
+	shallow = true
+[submodule "plugins/fzf-lua"]
+	path = plugins/fzf-lua
+	url = https://github.com/ibhagwan/fzf-lua
+	shallow = true
+[submodule "plugins/nvim-jdtls"]
+	path = plugins/nvim-jdtls
+	url = https://github.com/mfussenegger/nvim-jdtls
+	shallow = true
+[submodule "plugins/noice.nvim"]
+	path = plugins/noice.nvim
+	url = https://github.com/folke/noice.nvim
+	shallow = true
+[submodule "plugins/alpha-nvim"]
+	path = plugins/alpha-nvim
+	url = https://github.com/goolord/alpha-nvim
+	shallow = true
+[submodule "plugins/trouble.nvim"]
+	path = plugins/trouble.nvim
+	url = https://github.com/folke/trouble.nvim
+	shallow = true
+[submodule "plugins/vim-fugitive"]
+	path = plugins/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+	shallow = true
+[submodule "plugins/nui.nvim"]
+	path = plugins/nui.nvim
+	url = https://github.com/MunifTanjim/nui.nvim
+	shallow = true
+[submodule "plugins/nvim-treesitter-textobjects"]
+	path = plugins/nvim-treesitter-textobjects
+	url = https://github.com/nvim-treesitter/nvim-treesitter-textobjects
+	shallow = true
+[submodule "plugins/nvim-treesitter"]
+	path = plugins/nvim-treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter
+	shallow = true
+[submodule "plugins/which-key.nvim"]
+	path = plugins/which-key.nvim
+	url = https://github.com/folke/which-key.nvim
+	shallow = true
+[submodule "plugins/nvim-dap"]
+	path = plugins/nvim-dap
+	url = https://codeberg.org/mfussenegger/nvim-dap
+	shallow = true
+[submodule "plugins/nvim-notify"]
+	path = plugins/nvim-notify
+	url = https://github.com/rcarriga/nvim-notify
+	shallow = true
+[submodule "plugins/sonarlint.nvim"]
+	path = plugins/sonarlint.nvim
+	url = https://gitlab.com/schrieveslaach/sonarlint.nvim
+	shallow = true
+[submodule "plugins/sonarqube.nvim"]
+	path = plugins/sonarqube.nvim
+	url = https://github.com/iamkarasik/sonarqube.nvim
+	shallow = true
+[submodule "plugins/nvim-tree.lua"]
+	path = plugins/nvim-tree.lua
+	url = https://github.com/nvim-tree/nvim-tree.lua
+	shallow = true
+[submodule "plugins/neo-tree.nvim"]
+	path = plugins/neo-tree.nvim
+	url = https://github.com/nvim-neo-tree/neo-tree.nvim
+	shallow = true
+[submodule "plugins/comment.nvim"]
+	path = plugins/comment.nvim
+	url = https://github.com/numtostr/comment.nvim
+	shallow = true
+[submodule "plugins/stacktrace.nvim"]
+	path = plugins/stacktrace.nvim
+	url = https://github.com/B1tWhys/stacktrace.nvim
+	shallow = true
+[submodule "plugins/blanket.nvim"]
+	path = plugins/blanket.nvim
+	url = https://github.com/dsych/blanket.nvim
+	shallow = true
+[submodule "plugins/duvet.nvim"]
+	path = plugins/duvet.nvim
+	url = https://github.com/joke1196/duvet.nvim
+	shallow = true
+[submodule "plugins/plenary.nvim"]
+	path = plugins/plenary.nvim
+	url = https://github.com/nvim-lua/plenary.nvim
+	shallow = true
+[submodule "plugins/nvim-dap-ui"]
+	path = plugins/nvim-dap-ui
+	url = https://github.com/rcarriga/nvim-dap-ui
+	shallow = true
+[submodule "plugins/nvim-dap-virtual-text"]
+	path = plugins/nvim-dap-virtual-text
+	url = https://github.com/theHamsta/nvim-dap-virtual-text
+	shallow = true
