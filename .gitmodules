@@ -122,3 +122,23 @@
 	path = plugins/nvim-dap-virtual-text
 	url = https://github.com/theHamsta/nvim-dap-virtual-text
 	shallow = true
+[submodule "grammars/tree-sitter-bash"]
+	path = grammars/tree-sitter-bash
+	url = https://github.com/tree-sitter/tree-sitter-bash
+	shallow = true
+[submodule "grammars/tree-sitter-lua"]
+	path = grammars/tree-sitter-lua
+	url = https://github.com/tree-sitter-grammars/tree-sitter-lua
+	shallow = true
+[submodule "grammars/tree-sitter-markdown"]
+	path = grammars/tree-sitter-markdown
+	url = https://github.com/tree-sitter-grammars/tree-sitter-markdown
+	shallow = true
+[submodule "grammars/tree-sitter-regex"]
+	path = grammars/tree-sitter-regex
+	url = https://github.com/tree-sitter/tree-sitter-regex
+	shallow = true
+[submodule "grammars/tree-sitter-vim"]
+	path = grammars/tree-sitter-vim
+	url = https://github.com/tree-sitter-grammars/tree-sitter-vim
+	shallow = true
