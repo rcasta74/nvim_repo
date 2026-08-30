@@ -142,3 +142,6 @@
 	path = grammars/tree-sitter-vim
 	url = https://github.com/tree-sitter-grammars/tree-sitter-vim
 	shallow = true
+[submodule "config"]
+	path = config
+	url = https://github.com/rcasta74/dotnvim
