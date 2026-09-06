@@ -10,5 +10,6 @@ script_dir=$(
 cd -- "$script_dir"
 
 git -C deps clean -fdx
+git -C deps checkout .
 git -C neovim clean -fdx
 

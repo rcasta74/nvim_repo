@@ -7,6 +7,16 @@ script_dir=$(
     pwd -P
 )
 
+repo_root=$(
+    cd -- "$script_dir" &&
+    git rev-parse --show-toplevel
+)
+
+base_dir=$(
+    cd -- "$(dirname -- "$repo_root")" &&
+    pwd -P
+)
+
 cd -- "$script_dir/neovim"
 
 # prepare deps
@@ -17,6 +27,5 @@ ln -nfs ../../../deps/src .deps/build
 make deps DEPS_CMAKE_FLAGS=-DUSE_EXISTING_SRC_DIR=ON
 
 # build neovim 
-make CMAKE_BUILD_TYPE=Release
-
+make CMAKE_BUILD_TYPE=Release CMAKE_INSTALL_PREFIX=$base_dir/.local/
 
