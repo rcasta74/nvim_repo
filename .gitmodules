@@ -146,3 +146,7 @@
 [submodule "config"]
 	path = config
 	url = https://github.com/rcasta74/dotnvim
+[submodule "plugins/indent-blankline.nvim"]
+	path = plugins/indent-blankline.nvim
+	url = https://github.com/lukas-reineke/indent-blankline.nvim
+	shallow = true
