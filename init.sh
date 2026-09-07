@@ -14,6 +14,7 @@ repo_root=$(
 
 cd -- "$repo_root"
 
+git submodule init
 git submodule sync
 git submodule update --force --checkout --depth 1
 git submodule foreach 'git branch -l | grep -q local && git branch -fD local; git checkout -b local'
