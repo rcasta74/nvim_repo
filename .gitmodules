@@ -162,3 +162,6 @@
 [submodule "plugins/gemini.nvim"]
 	path = plugins/gemini.nvim
 	url = https://github.com/kiddos/gemini.nvim
+[submodule "plugins/nvim-scissors"]
+	path = plugins/nvim-scissors
+	url = https://github.com/chrisgrieser/nvim-scissors
