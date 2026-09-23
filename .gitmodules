@@ -150,3 +150,15 @@
 	path = plugins/indent-blankline.nvim
 	url = https://github.com/lukas-reineke/indent-blankline.nvim
 	shallow = true
+[submodule "plugins/codecompanion.nvim"]
+	path = plugins/codecompanion.nvim
+	url = https://github.com/olimorris/codecompanion.nvim
+[submodule "plugins/cc-adapter-gemini-code-assist.nvim"]
+	path = plugins/cc-adapter-gemini-code-assist.nvim
+	url = https://github.com/viespejo/cc-adapter-gemini-code-assist.nvim
+[submodule "plugins/cc-adapter-vertex-ai.nvim"]
+	path = plugins/cc-adapter-vertex-ai.nvim
+	url = https://github.com/viespejo/cc-adapter-vertex-ai.nvim
+[submodule "plugins/gemini.nvim"]
+	path = plugins/gemini.nvim
+	url = https://github.com/kiddos/gemini.nvim
